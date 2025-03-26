@@ -1,7 +1,7 @@
 package com.valkyrie.search;
 
 public class BinarySearch {
-    private int[] sortedArray;
+    private final int[] sortedArray;
 
     private BinarySearch(int[] sortedArray) {
         this.sortedArray = sortedArray;
